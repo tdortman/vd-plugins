@@ -8,8 +8,8 @@ showConfirmationAlert({
   confirmText: "Migrate now!",
   cancelText: "Remind later",
   onConfirm: async () => {
-    await installPlugin("https://tiltedtoast.github.io/vd-plugins/AliernUtils");
-    await removePlugin("https://tiltedtoast.github.io/vd-plugins/NotSoPrivate");
+    await installPlugin("https://tdortman.github.io/vd-plugins/AliernUtils");
+    await removePlugin("https://tdortman.github.io/vd-plugins/NotSoPrivate");
     showToast("Succesfully migrated to AliernUtils!");
   }
 });
